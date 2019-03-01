@@ -1,0 +1,128 @@
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+	height: 100%;
+	padding: 23%;
+	/*width:auto;*/
+}
+
+#hideMap {
+	display: none;
+}
+
+.banner {
+    background-image: url(../../public/images/music-fest.jpg);
+    background-size: cover;
+	height: 100vh;
+	transition: opacity 3s ease-in-out;
+	background-color: transparent;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+.container-fluid{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.gm-style-iw {
+  min-width: 500px; 
+  min-height: 150px;
+}
+
+.row {
+	background-color: transparent;
+}
+
+.navbar {
+	background-color: transparent !important; 
+	background: transparent;
+	border-color: transparent;
+	color: #EE834E;
+}
+
+
+body {
+	background-color: black;
+	color: #EE834E;
+}
+
+.nav-header{
+	color: #EE834E;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #EE834E;
+}
+
+.navbar-light .navbar-brand {
+    color: #EE834E;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #EE834E;
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #EE834E;
+    font-weight: bolder;
+}
+
+.banner p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    letter-spacing: 2px;
+    text-decoration: overline underline;
+    padding-top: 150px;
+    color: black;
+    font-size: 40px;
+	font-family: sans-serif;
+}
+
+#submitButton {
+    color: black;
+    background-color: #EE834E;
+    border-color: #EE834E;
+}
+
+p:hover {
+    font-weight: bolder;
+}
+
+#submitButton:hover {
+    background-color: black;
+    border-color: #EE834E;
+    color: #EE834E;
+}
+
+#loadButton {
+    background-color: #EE834E;
+}
+
+.banner p:hover {
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+#saveButton {
+    padding: 0;
+    margin-top: -95px;
+    background-color: transparent;
+}

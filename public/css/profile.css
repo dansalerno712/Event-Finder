@@ -1,0 +1,153 @@
+.icon-btn-remove {
+    background: transparent;
+    color: red;
+    float: left;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #EE834E;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #EE834E;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #EE834E;
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #EE834E;
+    font-weight: bolder;
+}
+
+.bg-light {
+    background-color: black !important;
+}
+
+.navbar {
+	color: #EE834E;
+}
+
+.navbar-light .navbar-brand {
+    color: #EE834E;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #EE834E;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #EE834E;
+    background-color: black;
+}
+
+.nav-tabs .nav-link.active {
+    color: #EE834E;
+    background-color: black;
+    border-color: #EE834E;
+}
+
+html {
+    background-color: black;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+    background-color: black;
+    color: #EE834E;
+    text-decoration: underline;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+a#nav-saved-tab:hover {
+    font-weight: bold;
+    border-color: #EE834E;
+}
+
+a#nav-shared-tab:hover {
+    font-weight: bold;
+    border-color: #EE834E;
+}
+
+form {
+    color: #EE834E;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #ee834e;
+    background-color: transparent;
+}
+
+button {
+    color: #ee834e;
+    border-radius: 4px;
+    border-color: #ee834e;
+}
+
+button, input {
+    overflow: visible;
+    color: #ee834e;
+    border-color: #ee834e;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    color: #ee834e;
+}
+
+span {
+    background-color: transparent;
+}
+
+.fa-check:before {
+    content: "\f00c";
+    background-color: #d4edda;
+}
+
+.fa-exclamation-circle:before {
+    content: "\f06a";
+    background-color: #f8d7da;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.feedback {
+    color: black;
+}
+
+hr {
+ margin-top: 20px;
+ margin-bottom: 20px;
+ border-top: 1px solid;
+ color: white;
+}
+
+#nav-tabContent{
+    padding-top: 20px;
+    padding-left: 20px; 
+}
+
+.eventName{
+    font-weight: bold;
+}
